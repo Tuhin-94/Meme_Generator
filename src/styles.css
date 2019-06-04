@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Head {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: purple;
+  color: white;
+}
+.Box {
+  position: relative;
+  display: inline-block;
+}
+
+.headtext {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 5%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+  color: white;
+  font-size: 300%;
+  font-weight: 300%;
+}
+.foottext {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 5%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+  color: white;
+  font-size: 300%;
+}
